@@ -4,7 +4,7 @@
 #include "uptime.h"
 
 int main() {
-    printf("---------- SYSTEM STATS --------\n");
+    printf("------------------\n");
     int limit = 25;
     while(limit>0){
         print_cpu_info();

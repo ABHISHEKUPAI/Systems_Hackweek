@@ -3,7 +3,6 @@
 
 void print_cpu_info() {
     printf("----------------\n");
-    printf("cpu info");
 
     char *output = malloc(1000*sizeof(char)); 
     if (!output) {

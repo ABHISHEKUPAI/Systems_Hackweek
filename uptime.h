@@ -3,9 +3,8 @@
 
 void print_uptime() {
     printf("-----------------\n");
-    printf("uptime")
 
-    char *output = malloc(500 * sizeof(char));
+    char* output = malloc(500 * sizeof(char));
     if (!output) {
         printf("Memory allocation failed\n");
         return;

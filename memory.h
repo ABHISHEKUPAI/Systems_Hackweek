@@ -3,7 +3,6 @@
 
 void print_memory_info() {
     printf("--------------\n");
-    Printf("memory info");
 
     char *output = malloc(1000 * sizeof(char));
     if (!output) {
