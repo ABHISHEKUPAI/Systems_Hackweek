@@ -17,6 +17,8 @@ on top of that, it contains lot of bugs.
 
 
 # Getting started
+- fork this repo 
+- clone your forked repo
 - compile sys_stat.c (gcc sys_stat.c -o output)
 - run output file (./output)
 - find issues from output or look into issues listed out, fix them and make a PR
