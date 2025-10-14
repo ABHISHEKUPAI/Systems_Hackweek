@@ -5,7 +5,7 @@ this repository is part of Hackweek by amFOSS
 
 # Hack Week 
 People having 6 PR's merged before October 21 from following repo's win cool stuff including keyboard and earbuds.
-- This repo (systems track)
+- systems track (This repo)
 - [web track](https://github.com/Harshith-2208/recipe-explorer)
 - [Mobile track](https://github.com/Nishthajain7/StudentPlanner.git)
 
