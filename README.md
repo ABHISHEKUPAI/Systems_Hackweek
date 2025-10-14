@@ -23,6 +23,9 @@ on top of that, it contains lot of bugs.
 - run output file (./output)
 - find issues from output or look into issues listed out, fix them and make a PR
 
+# Notice
+This program only works on linux. People who don't have access to linux, please check web and mobile track
+
 <br>
 happy coding : ) <br>
 Thank You
