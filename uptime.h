@@ -2,13 +2,8 @@
 #include <stdlib.h>
 
 void print_uptime() {
-    printf("-----------------\n");
 
     char* output = malloc(500 * sizeof(char));
-    if (!output) {
-        printf("Memory allocation failed\n");
-        return;
-    }
 
     FILE *fp = popen("uptime -p", "r");
     if (!fp) {
@@ -24,5 +19,4 @@ void print_uptime() {
 
     pclose(fp);
     free(output);
-    printf("-----------------------");
 }
