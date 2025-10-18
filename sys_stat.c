@@ -1,3 +1,4 @@
+#include<unistd.h>
 #include <stdio.h>
 #include "cpu.h"
 #include "memory.h"
@@ -11,6 +12,7 @@ int main() {
         print_memory_info();
         print_uptime();
         printf("--------------");
-        limit++;
+        sleep(1);
+        limit--;
     }
 }
